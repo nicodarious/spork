@@ -1,0 +1,32 @@
+# first ci/cd yaml build script
+name: goproxybuild
+on: [push, workflow_dispatch ]
+
+jobs:
+  job_one:
+    runs-on: ubuntu-minimal
+    steps:
+      - name: spork
+        uses: actions/checkout@v2
+      - name: 'run a thing'
+        run:
+          - echo "hi, terminal here."
+          - echo "step 2"
+
+
+
+
+
+
+
+
+
+
+      # - name: grab spack
+      #   users:
+      #   with:
+      #     repository:
+      #     path:
+        
+      # - name:
+      #   run: |
