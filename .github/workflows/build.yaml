@@ -21,7 +21,7 @@ jobs:
           lscpu
           echo "..."
           echo "..."
-
+          cat go-proxy/main.go
 
 
 
