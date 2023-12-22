@@ -8,10 +8,10 @@ jobs:
     steps:
       - name: spork
         uses: actions/checkout@v2
-      - name: 'run a thing'
-        run:
-          - echo "hi, terminal here."
-          - echo "step 2"
+      - name: run a thing
+        run: |
+          echo "hi, terminal here."
+          echo "step 2"
 
 
 
